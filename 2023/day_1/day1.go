@@ -30,6 +30,7 @@ func LineScore(line string) int {
 	return lp*10 + rp
 }
 
+// needed only for the second part.
 func LineReplacer(line string) string {
 	mapper := map[string]string{
 		"one":   "o1e",
